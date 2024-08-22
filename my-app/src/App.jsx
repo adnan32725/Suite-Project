@@ -20,6 +20,7 @@ function App() {
   return (
     <Router>
       <Routes>
+        //routes are goes here......
         <Route path="/" element={<Login />} />
         <Route path="/dashboard" element={<Navbar />}>
           <Route index element={<Project />} />
