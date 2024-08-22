@@ -1,0 +1,91 @@
+.navbar {
+    height: 3.1em;
+    display: flex;
+    align-items: center;
+    background-color: #534d64;
+    margin: 0;
+    padding: 0 1em
+}
+NavLink{
+    background: transparent;
+}
+
+.login {
+
+    width: 100%;
+    background-color: #F5F5F5;
+
+}
+
+.logoForm {
+    margin-bottom: 25px;
+}
+
+.loginForm {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginForm select {
+    height: 2.8em;
+    border-radius: .2em;
+    background: #FFF;
+    appearance: none;
+}
+
+.input-field {
+    background-color: #fff;
+    padding: .8em 0 0.8em 2em;
+    margin: .3em;
+    border: .05em solid #c6d0d8;
+    width: 24em;
+    color: #777;
+    gap: 5px;
+    display: flex;
+}
+
+.input-field input {
+    border: none;
+    width: 100%;
+    font-size: 15px;
+    outline: none;
+    color: #757575aa;
+}
+
+.login-button {
+    width: 385px;
+    font-weight: 600;
+    margin: .2em;
+    background-color: #eb6657;
+    letter-spacing: .1em;
+    padding: .8em .80em;
+    letter-spacing: .05em;
+    color: white;
+    font-size: .9em;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+    width: 100%;
+    height: 3.1em;
+    background-color: #e9e9e9;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-links a {
+    font-size: 15px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #534d64;
+}
