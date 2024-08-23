@@ -5,7 +5,7 @@ import { FaEdit, FaTrash } from 'react-icons/fa';
 import { Modal, Button, Form } from 'react-bootstrap';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+//ContactLogTable......
 const ContactLogTable = () => {
     const navigate = useNavigate();
 
