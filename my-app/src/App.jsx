@@ -15,6 +15,7 @@ import ActivityDetails from './Components/dashboard/ActivityDetails';
 import ContactLogDetails from './Components/dashboard/ContactLogDetails';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
     <Router>
@@ -52,4 +53,5 @@ function App() {
     </Router>
   );
 }
+
 export default App;
